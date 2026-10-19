@@ -1,16 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Oscar Pevia | Quality Assurance Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oscar Pevia - Quality Assurance Analyst Portfolio">
+  <title>Oscar Pevia | Quality Assurance Analyst</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #0f172a;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 24px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      background: #0f172a;
+      color: white;
+      padding: 90px 8%;
+    }
+
+    .hero-content {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .eyebrow {
+      color: #38bdf8;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      font-size: 54px;
+      margin-bottom: 5px;
+    }
+
+    .hero h2 {
+      color: #cbd5e1;
+      font-size: 27px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      color: #cbd5e1;
+      max-width: 700px;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #0284c7;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .button:hover {
+      background: #0369a1;
+    }
+
+    .secondary-button {
+      background: transparent;
+      border: 1px solid #64748b;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 65px 8%;
+    }
+
+    section h2 {
+      color: #0f172a;
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      color: #64748b;
+      max-width: 750px;
+      margin-bottom: 30px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: white;
+      border: 1px solid #e2e8f0;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 24px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+    }
+
+    .card h3 {
+      color: #0f172a;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #64748b;
+      margin-bottom: 16px;
+    }
+
+    .coming-soon {
+      color: #0284c7;
+      font-weight: bold;
+    }
+
+    .contact-link {
+      color: #0284c7;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .contact-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #0f172a;
+      color: #94a3b8;
+      text-align: center;
+      padding: 28px;
+    }
+
+    @media (max-width: 700px) {
+      nav .nav-links {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero {
+        padding: 65px 8%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <h1>Oscar Pevia</h1>
-    <h2>Quality Assurance Analyst</h2>
 
-    <p>
-        Welcome to my Quality Assurance portfolio.
+  <nav>
+    <div class="logo">OP | QA</div>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        QUALITY ASSURANCE PORTFOLIO
+      </div>
+
+      <h1>Oscar Pevia</h1>
+
+      <h2>Quality Assurance Analyst</h2>
+
+      <p>
+        Quality Assurance professional focused on delivering reliable
+        software through thoughtful test design, functional and regression
+        testing, defect analysis, data validation, user acceptance testing,
+        and test automation.
+      </p>
+
+      <a class="button" href="#projects">
+        View My QA Projects
+      </a>
+
+      <a class="button secondary-button" href="#contact">
+        Contact Me
+      </a>
+
+    </div>
+  </header>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p class="intro">
+      I am a Quality Assurance Analyst with experience testing complex
+      business applications and workflows. My work includes analyzing
+      requirements, designing test scenarios, executing functional and
+      regression testing, documenting defects, validating data, supporting
+      user acceptance testing, and developing automated tests.
     </p>
+
+  </section>
+
+  <section id="skills">
+
+    <h2>QA Skills &amp; Tools</h2>
+
+    <p class="intro">
+      Testing methodologies and technical tools I use throughout the
+      software quality assurance lifecycle.
+    </p>
+
+    <div class="skills">
+      <div class="skill">Manual Testing</div>
+      <div class="skill">Functional Testing</div>
+      <div class="skill">Regression Testing</div>
+      <div class="skill">User Acceptance Testing</div>
+      <div class="skill">Test Case Design</div>
+      <div class="skill">Defect Management</div>
+      <div class="skill">Requirements Analysis</div>
+      <div class="skill">Jira</div>
+      <div class="skill">SQL</div>
+      <div class="skill">mabl</div>
+      <div class="skill">Excel</div>
+      <div class="skill">Guidewire</div>
+      <div class="skill">Agile Testing</div>
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>Featured QA Projects</h2>
+
+    <p class="intro">
+      Portfolio projects demonstrating my approach to test design,
+      defect identification, data validation, automation, and UAT.
+    </p>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>End-to-End Manual Testing</h3>
+
+        <p>
+          A complete testing project covering requirements analysis,
+          test scenarios, test cases, execution, defect reporting,
+          retesting, and regression validation.
+        </p>
+
+        <span class="coming-soon">Project Coming Soon</span>
+      </div>
+
+      <div class="card">
+        <h3>SQL &amp; Data Validation</h3>
+
+        <p>
+          SQL testing examples demonstrating database validation,
+          data verification, and investigation of application results.
+        </p>
+
+        <span class="coming-soon">Project Coming Soon</span>
+      </div>
+
+      <div class="card">
+        <h3>Test Automation</h3>
+
+        <p>
+          Automation examples demonstrating reusable tests,
+          data-driven testing, assertions, and regression coverage.
+        </p>
+
+        <span class="coming-soon">Project Coming Soon</span>
+      </div>
+
+      <div class="card">
+        <h3>UAT &amp; Test Planning</h3>
+
+        <p>
+          A sample UAT project demonstrating test planning,
+          business scenarios, workflow validation, execution,
+          and testing results.
+        </p>
+
+        <span class="coming-soon">Project Coming Soon</span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <p class="intro">
+      Interested in discussing Quality Assurance opportunities?
+      You can view my GitHub profile below.
+    </p>
+
+    <a
+      class="contact-link"
+   folio
+  </footer>
+
 </body>
 </html>
