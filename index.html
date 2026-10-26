@@ -120,7 +120,7 @@
 
     .intro {
       color: #64748b;
-      max-width: 750px;
+      max-width: 800px;
       margin-bottom: 30px;
     }
 
@@ -140,7 +140,7 @@
 
     .projects {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 20px;
     }
 
@@ -153,7 +153,6 @@
     }
 
     .card h3 {
-      color: #0f172a;
       margin-bottom: 10px;
     }
 
@@ -169,8 +168,8 @@
 
     .contact-link {
       color: #0284c7;
-      font-weight: bold;
       text-decoration: none;
+      font-weight: bold;
     }
 
     .contact-link:hover {
@@ -181,20 +180,17 @@
       background: #0f172a;
       color: #94a3b8;
       text-align: center;
-      padding: 28px;
+      padding: 25px;
+      margin-top: 50px;
     }
 
     @media (max-width: 700px) {
-      nav .nav-links {
-        display: none;
-      }
-
       .hero h1 {
         font-size: 40px;
       }
 
-      .hero {
-        padding: 65px 8%;
+      .nav-links {
+        display: none;
       }
     }
   </style>
@@ -202,161 +198,186 @@
 
 <body>
 
-  <nav>
-    <div class="logo">OP | QA</div>
+<nav>
+  <div class="logo">OP | QA</div>
 
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+
+    <div class="eyebrow">
+      QUALITY ASSURANCE PORTFOLIO
     </div>
-  </nav>
 
-  <header class="hero">
-    <div class="hero-content">
+    <h1>Oscar Pevia</h1>
 
-      <div class="eyebrow">
-        QUALITY ASSURANCE PORTFOLIO
-      </div>
+    <h2>Quality Assurance Analyst</h2>
 
-      <h1>Oscar Pevia</h1>
+    <p>
+      Quality Assurance professional focused on delivering reliable software
+      through thoughtful test design, regression testing, UAT, defect analysis,
+      data validation, and test automation.
+    </p>
 
-      <h2>Quality Assurance Analyst</h2>
+    <a class="button" href="#projects">
+      View My QA Projects
+    </a>
 
+    <a class="button secondary-button" href="#contact">
+      Contact Me
+    </a>
+
+  </div>
+</header>
+
+<section id="about">
+
+  <h2>About Me</h2>
+
+  <p class="intro">
+    Quality Assurance Analyst with experience in manual testing,
+    functional testing, regression testing, user acceptance testing,
+    defect management, automation support, and software release validation.
+    Experienced with Jira, Guidewire, Mabl, SQL, Agile methodologies,
+    and end-to-end testing of business applications and customer workflows.
+  </p>
+
+</section>
+
+<section id="skills">
+
+  <h2>QA Skills & Tools</h2>
+
+  <p class="intro">
+    Testing methodologies and tools used throughout the software quality lifecycle.
+  </p>
+
+  <div class="skills">
+    <div class="skill">Manual Testing</div>
+    <div class="skill">Functional Testing</div>
+    <div class="skill">Regression Testing</div>
+    <div class="skill">User Acceptance Testing</div>
+    <div class="skill">Test Case Design</div>
+    <div class="skill">Defect Management</div>
+    <div class="skill">Requirements Analysis</div>
+    <div class="skill">Smoke Testing</div>
+    <div class="skill">Integration Testing</div>
+    <div class="skill">System Testing</div>
+    <div class="skill">Jira</div>
+    <div class="skill">Guidewire</div>
+    <div class="skill">Mabl</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Excel</div>
+    <div class="skill">Agile Testing</div>
+    <div class="skill">Root Cause Analysis</div>
+    <div class="skill">E-Commerce Testing</div>
+  </div>
+
+</section>
+
+<section id="projects">
+
+  <h2>Featured QA Projects</h2>
+
+  <p class="intro">
+    Portfolio projects demonstrating my approach to testing,
+    data validation, defect management, automation, and UAT.
+  </p>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>End-to-End Manual Testing</h3>
       <p>
-        Quality Assurance professional focused on delivering reliable
-        software through thoughtful test design, functional and regression
-        testing, defect analysis, data validation, user acceptance testing,
-        and test automation.
+        Requirements analysis, test scenarios, test case creation,
+        execution, defect reporting, retesting, and regression validation.
       </p>
-
-      <a class="button" href="#projects">
-        View My QA Projects
-      </a>
-
-      <a class="button secondary-button" href="#contact">
-        Contact Me
-      </a>
-
-    </div>
-  </header>
-
-  <section id="about">
-
-    <h2>About Me</h2>
-
-    <p class="intro">
-      I am a Quality Assurance Analyst with experience testing complex
-      business applications and workflows. My work includes analyzing
-      requirements, designing test scenarios, executing functional and
-      regression testing, documenting defects, validating data, supporting
-      user acceptance testing, and developing automated tests.
-    </p>
-
-  </section>
-
-  <section id="skills">
-
-    <h2>QA Skills &amp; Tools</h2>
-
-    <p class="intro">
-      Testing methodologies and technical tools I use throughout the
-      software quality assurance lifecycle.
-    </p>
-
-    <div class="skills">
-      <div class="skill">Manual Testing</div>
-      <div class="skill">Functional Testing</div>
-      <div class="skill">Regression Testing</div>
-      <div class="skill">User Acceptance Testing</div>
-      <div class="skill">Test Case Design</div>
-      <div class="skill">Defect Management</div>
-      <div class="skill">Requirements Analysis</div>
-      <div class="skill">Jira</div>
-      <div class="skill">SQL</div>
-      <div class="skill">mabl</div>
-      <div class="skill">Excel</div>
-      <div class="skill">Guidewire</div>
-      <div class="skill">Agile Testing</div>
+      <span class="coming-soon">Repository Coming Soon</span>
     </div>
 
-  </section>
-
-  <section id="projects">
-
-    <h2>Featured QA Projects</h2>
-
-    <p class="intro">
-      Portfolio projects demonstrating my approach to test design,
-      defect identification, data validation, automation, and UAT.
-    </p>
-
-    <div class="projects">
-
-      <div class="card">
-        <h3>End-to-End Manual Testing</h3>
-
-        <p>
-          A complete testing project covering requirements analysis,
-          test scenarios, test cases, execution, defect reporting,
-          retesting, and regression validation.
-        </p>
-
-        <span class="coming-soon">Project Coming Soon</span>
-      </div>
-
-      <div class="card">
-        <h3>SQL &amp; Data Validation</h3>
-
-        <p>
-          SQL testing examples demonstrating database validation,
-          data verification, and investigation of application results.
-        </p>
-
-        <span class="coming-soon">Project Coming Soon</span>
-      </div>
-
-      <div class="card">
-        <h3>Test Automation</h3>
-
-        <p>
-          Automation examples demonstrating reusable tests,
-          data-driven testing, assertions, and regression coverage.
-        </p>
-
-        <span class="coming-soon">Project Coming Soon</span>
-      </div>
-
-      <div class="card">
-        <h3>UAT &amp; Test Planning</h3>
-
-        <p>
-          A sample UAT project demonstrating test planning,
-          business scenarios, workflow validation, execution,
-          and testing results.
-        </p>
-
-        <span class="coming-soon">Project Coming Soon</span>
-      </div>
-
+    <div class="card">
+      <h3>SQL & Data Validation</h3>
+      <p>
+        Examples of database validation, data verification,
+        and QA-focused SQL testing techniques.
+      </p>
+      <span class="coming-soon">Repository Coming Soon</span>
     </div>
 
-  </section>
+    <div class="card">
+      <h3>Mabl Test Automation</h3>
+      <p>
+        Automated test coverage examples, regression suites,
+        and reusable testing approaches.
+      </p>
+      <span class="coming-soon">Repository Coming Soon</span>
+    </div>
 
-  <section id="contact">
+    <div class="card">
+      <h3>UAT & Test Planning</h3>
+      <p>
+        User acceptance testing artifacts, test plans,
+        workflows, and execution reporting examples.
+      </p>
+      <span class="coming-soon">Repository Coming Soon</span>
+    </div>
 
-    <h2>Contact</h2>
+  </div>
 
-    <p class="intro">
-      Interested in discussing Quality Assurance opportunities?
-      You can view my GitHub profile below.
-    </p>
+</section>
 
-    <a
-      class="contact-link"
-   folio
-  </footer>
+<section id="contact">
+
+  <h2>Contact</h2>
+
+  <p class="intro">
+    Interested in discussing Quality Assurance opportunities?
+    Connect with me below.
+  </p>
+
+  <p>
+    GitHub:
+    <a class="contact-link"
+       href="https://github.com/OscarPevia"
+       target="_blank">
+       github.com/OscarPevia
+    </a>
+  </p>
+
+  <br>
+
+  <p>
+    Portfolio:
+    <a class="contact-link"
+       href="https://oscarpevia.github.io"
+       target="_blank">
+       oscarpevia.github.io
+    </a>
+  </p>
+
+  <br>
+
+  <p>
+    LinkedIn:
+    <a class="contact-link"
+       href="#"
+       target="_blank">
+       Add Your LinkedIn URL Here
+    </a>
+  </p>
+
+</section>
+
+<footer>
+  © 2026 Oscar Pevia | Quality Assurance Portfolio
+</footer>
 
 </body>
 </html>
